@@ -10,9 +10,9 @@ var block10, block11, block12, block13, block14, block15, block16, block17, bloc
 var floatingG1, floatingG2, bottomG;
 var launcher;
 
-function preload(){
-  polygon_Img = loadImage("sprites/hexagon.png");
-}
+//function preload(){
+  //polygon_Img = loadImage("sprites/circle.jpg");
+//}
 
 function setup(){
 	createCanvas(1200, 700);
@@ -117,8 +117,11 @@ function draw(){
 
   launcher.display();
 
-  imageMode(CENTER);
-  image(polygon_Img, polygon.position.x, polygon.position.y, 40, 40);
+  //imageMode(CENTER);
+  ellipseMode(RADIUS);
+  fill("yellow");
+  ellipse(polygon.position.x, polygon.position.y, 20, 20);
+  //image(polygon_Img, polygon.position.x, polygon.position.y, 40, 40);
 
   drawSprites();
  

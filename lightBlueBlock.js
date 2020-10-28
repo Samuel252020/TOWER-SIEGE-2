@@ -1,7 +1,7 @@
 class lightBlueBlock extends BaseClass {
     constructor(x, y, width, height){
       super(x, y, width, height);
-      this.image = loadImage("sprites/lightBlue.png");
+      this.image = loadImage("sprites/lightblue.jpg");
       this.visibility = 255;
     }
     display(){

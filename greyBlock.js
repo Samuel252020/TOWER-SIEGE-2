@@ -1,7 +1,7 @@
 class GreyBlock extends BaseClass {
     constructor(x, y, width, height){
       super(x, y, width, height);
-      this.image = loadImage("sprites/grey.png");
+      this.image = loadImage("sprites/grey.jpg");
       this.visibility = 255;
     }
     display(){

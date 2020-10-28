@@ -1,7 +1,7 @@
 class redBlock extends BaseClass {
     constructor(x, y, width, height){
       super(x, y, width, height);
-      this.image = loadImage("sprites/red.png");
+      this.image = loadImage("sprites/red.jpg");
       this.visibility = 255;
     }
     display(){
